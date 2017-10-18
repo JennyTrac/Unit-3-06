@@ -1,0 +1,65 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {480, 320}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "ImageView",
+        "attributes" : {
+          "class" : "ImageView",
+          "name" : "walking_man_imageview",
+          "uuid" : "AE5D244E-C1ED-45EF-BFF5-8D2E4C47676E",
+          "frame" : "{{220, 220}, {100, 100}}"
+        },
+        "frame" : "{{364, 100}, {110, 110}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "title" : "Walk",
+          "name" : "walk_button",
+          "action" : "walk_touch_up_inside",
+          "class" : "Button",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "uuid" : "E03E9009-8E26-4153-89F7-CA1F8787BB04"
+        },
+        "frame" : "{{199, 260}, {80, 30}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Want to see a man walking? Click \"Walk\"",
+          "font_name" : "<System>",
+          "name" : "instruction_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "EF300B0A-E3EB-4D58-8FF4-E7378FA70FDD"
+        },
+        "frame" : "{{69, 34}, {341, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
